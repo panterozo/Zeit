@@ -1,0 +1,16 @@
+{
+ "name":"ctp-notifications-ondemand",
+ "version":"1.0.0",
+ "description":"Este bot controlará las push notifications",
+ "main":"connection.js",
+ "author":"@panterozo",
+ "dependencies": {
+  "node-fetch": "2.1.2",
+	"jssha": "2.3.1",
+	"micro": "^9.3.2"
+ },
+ "scripts":{
+	"start": "micro connection.js"
+ },
+ "license":"MIT"
+}
